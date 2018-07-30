@@ -11,6 +11,7 @@
   <body>
     <p>
 <?php
+/*Boucle for pour afficher toute les valeurs*/
   for($number = 0; $number < 12; $number++){
     echo $months[$number] . '<br />';
   }
